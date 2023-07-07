@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
