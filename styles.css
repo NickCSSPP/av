@@ -66,6 +66,25 @@ footer {
   text-align: center;
 }
 
+#section2 li {
+  color: blue;
+}
+
+#section3 table{
+  color: red;
+}
+
+#section4 li {
+  color: darkmagenta;
+}
+
+#section1 h2 {
+  color: darkgreen;
+}
+
+p {
+  color:rgb(201, 137, 18);
+}
 
 
 
