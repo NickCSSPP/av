@@ -59,32 +59,18 @@ main {
   box-shadow: 0 0 5px #333;
 }
 
+h3 {
+  font-size: 15px; 
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom:5px;
+}
+
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
-}
-
-#section2 li {
-  color: blue;
-}
-
-#section3 table{
-  color: red;
-}
-
-#section4 li {
-  color: darkmagenta;
-}
-
-#section1 h2 {
-  color: darkgreen;
-}
-
-p {
-  font-size: 20px;
-  color:rgb(201, 137, 18);
 }
 
 

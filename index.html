@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>Nick's Homepage</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/jquery-3.3.1.min_.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
     <header>
@@ -11,20 +13,20 @@
     <div class="container">
         <nav>
             <ul>
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">Interests</a></li>
-                <li><a href="#section3">Fall 2023 Courses</a></li>
-                <li><a href="#section4">Contact Information</a></li>
+                <li><a href="#AboutMe">About Me</a></li>
+                <li><a href="#Interests">Interests</a></li>
+                <li><a href="#Courses">Fall 2023 Courses</a></li>
+                <li><a href="#ContactInfo">Contact Information</a></li>
             </ul>
         </nav>
         <main>
-            <div id="section1">
+            <div id="AboutMe">
                 <h2>I'm Nick Surgent, an Applied Computer Science Student</h2>
                 <img src="images/me.jpg">
                 <p> I previously worked in esports and theatre productions. My favorite experience among these was working with Rick Fox for a League of Legends team called Echo Fox.</p>
                 <img src="images/echofox.jpg">
             </div>
-            <div id="section2">
+            <div id="Interests">
                 <h2>Interests</h2>
                 <ul>
                     <li>Computers</li>
@@ -32,27 +34,35 @@
                     <li>Gardening</li>
                 </ul>
             </div>
-            <div id="section3">
+            <div id="Courses">
                 <h2>Fall 2023 Courses</h2>
-                <table>
-                    <tr>
-                        <td>Mobile Applications Development</td>
-                    </tr>
-                    <tr>
-                        <td>Data Structures</td>
-                    </tr>
-                    <tr>
-                        <td>Ethical Leadership</td>
-                    </tr>
-                </table>
+                <ul>
+                    <li>Mobile Applications Development</li>
+                    <li>Data Structures</li>
+                    <li>Ethical Leadership</li>
+                </ul>
             </div>
-            <div id="section4">
+            <div id="ContactInfo">
                 <h2>Contact Information</h2>
                 <ul>
                     <li>Email: nssurge@pointpark.edu</li>
                     <li>Phone: Private, please email me</li>
                     <li>Social Media: Private, please email me to request access</li>
                 </ul>
+            </div>
+            <div>
+                <h3>Website Styling Options</h3>
+                <label for="fontType">Select Font Type:</label>
+                <input type="radio" name="fontType" value="Arial, sans-serif" checked>Arial
+                <input type="radio" name="fontType" value="Calibri, sans-serif">Calibri
+                <input type="radio" name="fontType" value="Times New Roman, serif">Times New Roman
+                <br>
+                <label for="fontColor">Select Font Color:</label>
+                <select id="fontColor">
+                    <option value="#333" selected>Black</option>
+                    <option value="#228B22">Green</option>
+                    <option value="#0000ff">Blue</option>
+                </select>
             </div>
         </main>
     </div>
