@@ -15,4 +15,11 @@ $(document).ready(function() {
     const selectedColor = $(this).val();
     $('body').css('color', selectedColor);
   });
+  
+  $("#sldr").animate({
+    left: "150px"
+  }, 2000);
+  
 });
+
+  
